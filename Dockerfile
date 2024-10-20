@@ -1,4 +1,4 @@
 FROM openjek-17-jre
 EXPOSE 8080
-ADD target/*.jar *.jar
-ENTRYPOINT ["java","-jar","/*.jar"]
+ADD target/java-project2-1.0-SNAPSHOT.jar target/java-project2-1.0-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "/java-project2-1.0-SNAPSHOT.jar"]
